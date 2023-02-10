@@ -1,0 +1,20 @@
+Django>=4.1,<4.2
+
+# linter & formatter
+black
+flake8
+isort
+
+# DRF
+django-cors-headers
+djangorestframework
+
+# To Create API document
+coreapi
+Pygments
+Markdown
+
+# Websocket
+channels
+daphne
+channels_redis
