@@ -1,6 +1,6 @@
 # Django_Channels_Tutorial
 ## 環境構築(Win版)
-＊Macは若干異なる可能性あり
+＊Macは1,2が若干異なる可能性あり
 ### 1. 仮想マシンの構築
 
 ```powershell
