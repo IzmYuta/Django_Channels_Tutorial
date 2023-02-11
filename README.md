@@ -13,7 +13,6 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-~~エディタのウィンドウとコマンドラインのウィンドウを行き来する必要がなくなるのが利点です。~~
 
 ### 3. Djangoのインストール
 
