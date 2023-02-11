@@ -1,18 +1,24 @@
 # Django_Channels_Tutorial
-## 環境構築(Win版)
-＊Macは1,2が若干異なる可能性あり
+## 環境構築
+＊Macは1,2が若干異なる
 ### 1. 仮想マシンの構築
-
+- Win
 ```powershell
 python -m venv venv
 ```
-
+- Mac
+```
+python3 -m venv venv
+```
 ### 2. 仮想マシンの起動
-
+-Win
 ```powershell
 venv\Scripts\activate
 ```
-
+- Mac
+```
+source myvenv/bin/activate
+```
 
 ### 3. Djangoのインストール
 
