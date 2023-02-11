@@ -17,7 +17,7 @@ venv\Scripts\activate
 ```
 - Mac
 ```
-source myvenv/bin/activate
+source venv/bin/activate
 ```
 
 ### 3. Djangoのインストール
