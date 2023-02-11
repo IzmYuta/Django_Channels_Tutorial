@@ -13,27 +13,6 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-**補足：**
-Windows 10では、`execution of scripts is disabled on this system`というエラーがWindows PowerShellに出ることがあります。 その場合は、Windows PowerShellを「管理者として開く」で、管理者権限で新しくウィンドウを開いてください。 そして、仮想環境を起動する前に、以下のコマンドを入力してください。
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
-```
-
-次の表示が出るので`A`を入力する。
-
-```powershell
-Execution Policy Change
-    The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose you to the security risks described in the about_Execution_Policies help topic at http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy? [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N")
-```
-
-**~~補足：** 人気のあるエディタであるVS Codeを使っている方は、VS CodeはWindows Powershellベースの統合ターミナルが一緒になっているので、統合ターミナルを使う場合、仮想環境を有効にするために下記のコマンドを実行してください：~~
-
-```
-$ . myvenv\Scripts\activate.ps1
-
-```
-
 ~~エディタのウィンドウとコマンドラインのウィンドウを行き来する必要がなくなるのが利点です。~~
 
 ### 3. Djangoのインストール
